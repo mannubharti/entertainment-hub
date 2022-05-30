@@ -42,7 +42,9 @@ export default function ContentModal({ children, media_type, id }) {
 
   useEffect(() => {
     fetchData();
+    // eslint-disable-next-line
     fetchVideo();
+    // eslint-disable-next-line
   }, [])
 
   return (
