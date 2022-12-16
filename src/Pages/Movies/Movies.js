@@ -43,8 +43,10 @@ useEffect(() => {
           />
 
           {
-            console.log('selectedGenres =', selectedGenres),
+            <>
+            console.log('selectedGenres =', selectedGenres);
             console.log('content =', content)
+            </>
           }
 
           <div className="trending">
